@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-int menu(){
+int menu()
+{
     printf("MENU\n");
     printf("1.Total of All Top Score for the week\n");
     printf("2.Total of All High Score for the week\n");
@@ -10,7 +11,7 @@ int menu(){
     printf("Enter Selection:");
 
     int selection = getchar();
-    getchar();   
+    printf("%c", selection);
+    getchar();
     return selection;
-
 }
